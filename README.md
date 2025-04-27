@@ -8,25 +8,33 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the required libraries.
+1.Import the required libraries and Load the Dataset
 
-2.Load the dataset.
+2.Drop Irrelevant Columns (sl_no, salary)
 
+3.Convert Categorical Columns to Category Data Type
 
-3.Define X and Y array.
+4.Encode Categorical Columns as Numeric Codes
 
+5.Split Dataset into Features (X) and Target (Y)
 
-4.Define a function for costFunction,cost and gradient.
+6.Initialize Model Parameters (theta) Randomly
 
+7.Define Sigmoid Activation Function
 
-5.Define a function to plot the decision boundary
+8.Define Logistic Loss Function (Binary Cross-Entropy)
 
+9.Implement Gradient Descent to Minimize Loss
 
+10.Train the Model by Updating theta Iteratively
 
-6.Define a function to predict the Regression value.
+11.Define Prediction Function Using Threshold (0.5)
 
+12.Predict Outcomes for Training Set
 
+13.Calculate and Display Accuracy
 
+14.Make Predictions on New Data Samples
 ## Program:
 ```
 /*
@@ -98,25 +106,28 @@ print(y_prednew)
 ```
 
 ## Output:
-![Screenshot 2025-03-29 193030](https://github.com/user-attachments/assets/61f94020-9869-4573-ba95-f878ac98ec0b)
+### Value of df
+![Screenshot 2025-04-27 111919](https://github.com/user-attachments/assets/8a1cc7c9-6b86-4505-bc15-a55c248411cd)
 
 
+### df.head()
 ![Screenshot 2025-03-29 193054](https://github.com/user-attachments/assets/14e4ce38-2ce3-4e76-9cea-d6083ab46193)
 
-
+### Value of df.dtypes
 ![Screenshot 2025-03-29 193101](https://github.com/user-attachments/assets/6219bc7b-a0e6-46f2-a825-8b9bdb67734c)
 
-
+### Value of df
 ![Screenshot 2025-03-29 193111](https://github.com/user-attachments/assets/2c435072-1df7-4413-a77d-f083827f05cf)
 
-
+### Value of y
 ![Screenshot 2025-03-29 193120](https://github.com/user-attachments/assets/91adca36-a374-4815-8c6d-11f5a0a8deaa)
 
 
 ![Screenshot 2025-03-29 193137](https://github.com/user-attachments/assets/2a09ca59-1b63-4c98-98a2-da3a9d8d6446)
 
 
-![Screenshot 2025-03-29 193147](https://github.com/user-attachments/assets/97d7fe98-b190-4086-8f78-dc3fb256d134)
+![Screenshot 2025-04-27 112028](https://github.com/user-attachments/assets/56305f7a-1a7e-4afe-ab22-acaa32c1a5d1)
+
 
 
 
