@@ -122,10 +122,10 @@ print(y_prednew)
 ### Value of y
 ![Screenshot 2025-03-29 193120](https://github.com/user-attachments/assets/91adca36-a374-4815-8c6d-11f5a0a8deaa)
 
-
+### Value of accuracy and y_pred
 ![Screenshot 2025-03-29 193137](https://github.com/user-attachments/assets/2a09ca59-1b63-4c98-98a2-da3a9d8d6446)
 
-
+### Value of y_prednew
 ![Screenshot 2025-04-27 112028](https://github.com/user-attachments/assets/56305f7a-1a7e-4afe-ab22-acaa32c1a5d1)
 
 
